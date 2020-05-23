@@ -1,0 +1,13 @@
+Funcionalidade: Ainda é sexta-feira?
+    Todo mundo quer saber quando é sexta-feira
+Cenário: domingo não é sexta-feira
+Dado hoje é domingo
+Quando pergunto se é sexta-feira ainda
+Então eu deveria me dizer "Não"
+
+Scenario: Login successfully
+Given the login page is opening
+When I input username into the username textbox
+And I input valid password into the password textbox
+And I click Login button
+Then I am on the Home page

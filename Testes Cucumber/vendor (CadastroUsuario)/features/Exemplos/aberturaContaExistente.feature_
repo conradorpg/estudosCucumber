@@ -1,0 +1,19 @@
+Feature: Abertura de conta
+Como um gerente de banco
+Eu quero cadastrar as informações dos meus clientes
+Para abrir uma conta de serviços bancário para os mesmos
+
+Cenário: Cliente com cadastro no sistema
+Dado que senhor Joaquim deseja abrir uma conta
+E informou "CPF" já existente na tabela clientes
+E informou "RG"
+E informou "Endereco"
+Quando entrar com essas informações no cadastro
+Então não será possível abrir uma nova conta
+E deve ser informado que ele já é cliente
+
+Examples:
+| CPF    | RG     | Endereco           |
+| 00001  | 00001  | Rua Tal, Nº 00001  |
+| 00002  | 00002  | Rua Tal, Nº 00002  |
+| 00003  | 00003  | Rua Tal, Nº 00003  |

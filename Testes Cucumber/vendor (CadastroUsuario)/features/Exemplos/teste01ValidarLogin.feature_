@@ -1,0 +1,16 @@
+#language: pt
+Funcionalidade: Validar Login
+Como um administrador do sistema
+Eu quero poder validar o login da aplicacao
+Para que eu possa acessar o sistema
+
+Esquema do Cenário: Validar login com sucesso
+Dados um usuario "<usuario>" com perfil de administrador
+Quando preenche o campo senha com a "<senha>"
+E aciona o botao entrar
+E acessa a tela "<tela>"
+Então o usuario visualiza a tela "<link>".
+
+Examples:
+| usuario             | senha | tela              | link                                        |
+| email@teste.com.br  | 1234  | Tipo Solicitação  | http://192.168.0.99/sistema/TipoSolicitacao |npm 

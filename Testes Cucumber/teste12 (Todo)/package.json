@@ -1,0 +1,21 @@
+{
+    "name": "teste12",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/cucumber-js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cucumber": "^6.0.5",
+        "mocha": "^7.0.0",
+        "request": "^2.88.0",
+        "selenium-webdriver": "^4.0.0-alpha.5"
+    },
+    "dependencies": {
+        "chromedriver": "^79.0.0"
+    }
+}

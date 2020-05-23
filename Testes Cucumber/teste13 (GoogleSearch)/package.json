@@ -1,0 +1,20 @@
+{
+    "name": "teste13",
+    "version": "1.0.0",
+    "description": "To test using cucumber js and selenium webdriver",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./node_modules/request/index.js"
+    },
+    "keywords": [
+        "cucumber"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cucumber": "^6.0.5",
+        "request": "^2.88.0",
+        "selenium-webdriver": "^4.0.0-alpha.5"
+    },
+    "dependencies": {}
+}
