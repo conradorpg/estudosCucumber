@@ -12,7 +12,7 @@ Given(/^acesso a página inicial do Facebook$/) do
   
   When(/^entro com os detalhes do login$/) do
 
-    browser.text_field(name: "email").set("conrompg@gmail.com")
+    browser.text_field(name: "email").set("email@email.com")
 
     browser.text_field(name: "pass").set("")
 
